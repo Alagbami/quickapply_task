@@ -21,8 +21,7 @@ const Footer = () => {
                   Sign up to our Newsletter
                 </h2>
                 <p className="mt-2 text-[#C1C1C3]">
-                  Stay up to date with latest news, announcements, and lots
-                  more.
+                  Stay up to date with the latest news, announcements, and lots more.
                 </p>
               </div>
               <div className="flex mt-4 md:mt-0 w-full md:w-auto">
@@ -40,7 +39,7 @@ const Footer = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="">
+        <div>
           <div className="max-w-[1200px] flex flex-col lg:flex-row justify-between gap-8 mx-auto">
             {/* Logo and Social Icons */}
             <div className="flex flex-col items-start">
@@ -54,25 +53,33 @@ const Footer = () => {
               </p>
               <div className="mt-4 flex space-x-4">
                 <a
-                  href="#"
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-yellow-500 bg-[#E7E7E7] bg-opacity-10 py-2 px-4 border border-[#E7E7E7] border-opacity-30 rounded"
                 >
                   <FontAwesomeIcon icon={faFacebook} className="text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-yellow-500 bg-[#E7E7E7] bg-opacity-10 py-2 px-4 border border-[#E7E7E7] border-opacity-30 rounded"
                 >
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
                 <a
-                  href="#"
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-yellow-500 bg-[#E7E7E7] bg-opacity-10 py-2 px-4 border border-[#E7E7E7] border-opacity-30 rounded"
                 >
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
                 <a
-                  href="#"
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-yellow-500 bg-[#E7E7E7] bg-opacity-10 py-2 px-4 border border-[#E7E7E7] border-opacity-30 rounded"
                 >
                   <FontAwesomeIcon icon={faYoutube} />
@@ -86,19 +93,19 @@ const Footer = () => {
               <h2 className="text-lg font-semibold mb-4">Products</h2>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <Link to="/ai-tailor-resume" className="hover:text-yellow-500">
                     AI Tailor Resume
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <Link to="/ai-score-resume" className="hover:text-yellow-500">
                     AI Score Resume
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-yellow-500">
+                  <Link to="/ai-build-resume" className="hover:text-yellow-500">
                     AI Build Resume
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -133,12 +140,12 @@ const Footer = () => {
             {/* Join Our Community */}
             <div className="flex flex-col items-start">
               <h2 className="text-lg font-semibold mb-4">Join our Community</h2>
-              <a
-                href="#"
+              <Link
+                to="/discord"
                 className="mt-4 bg-yellow-500 text-gray-900 px-4 py-2 rounded-lg hover:bg-yellow-600"
               >
                 Join Discord Community
-              </a>
+              </Link>
             </div>
           </div>
         </div>

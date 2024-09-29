@@ -1,13 +1,20 @@
-import BlogBody from "../components/BlogBody";
+import BlogPost from "../components/BlogPost";
+import Cta from "../components/Cta";
+import QuickApplyBlog from "../components/QuickApplyBlog";
+import FeaturedPosts from "../components/FeaturedPosts";
+import JoinCommunity from "../components/JoinCommunity"
 
-const Blog = () => {
+
+function App() {
   return (
-    <>
-      <div>
-        <BlogBody />
-      </div>
-    </>
+    <div className="">
+      <QuickApplyBlog />
+      <FeaturedPosts />
+      <BlogPost />
+      <Cta />
+      <JoinCommunity />
+    </div>
   );
-};
+}
 
-export default Blog;
+export default App;
