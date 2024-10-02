@@ -93,17 +93,17 @@ const Footer = () => {
               <h2 className="text-lg font-semibold mb-4">Products</h2>
               <ul className="space-y-2">
                 <li>
-                  <Link to="/ai-tailor-resume" className="hover:text-yellow-500">
+                  <Link to="/tailor" className="hover:text-yellow-500">
                     AI Tailor Resume
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ai-score-resume" className="hover:text-yellow-500">
+                  <Link to="/score" className="hover:text-yellow-500">
                     AI Score Resume
                   </Link>
                 </li>
                 <li>
-                  <Link to="/ai-build-resume" className="hover:text-yellow-500">
+                  <Link to="/build" className="hover:text-yellow-500">
                     AI Build Resume
                   </Link>
                 </li>

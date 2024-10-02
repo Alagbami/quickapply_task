@@ -7,6 +7,10 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavbBar";
 import Faq from "./pages/Faq";
 import PostsPage from './pages/PostsPage';
+import Tailor from "./pages/Tailor";
+import Build from "./pages/Build";
+import Score from "./pages/Score";
+
 
 const App = () => {
   return (
@@ -20,6 +24,9 @@ const App = () => {
           <Route path="/posts" element={<PostsPage />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/refund" element={<Refund />} />
+          <Route path="/tailor" element={<Tailor />} />
+          <Route path="/build" element={<Build />} />
+          <Route path="/score" element={<Score />} />
         </Routes>
         <Footer />
       </div>
