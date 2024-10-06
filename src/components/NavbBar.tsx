@@ -26,9 +26,9 @@ const NavBar = () => {
               <a href="#home" className="hover:text-yellow-400">
                 Home
               </a>
-              <a href="#pricing" className="hover:text-yellow-400">
-                Pricing
-              </a>
+              <Link to="/price" className="hover:text-yellow-400">
+                Price
+              </Link>
               <Link to="/" className="hover:text-yellow-400">
                 FAQ
               </Link>

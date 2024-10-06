@@ -10,6 +10,7 @@ import PostsPage from './pages/PostsPage';
 import Tailor from "./pages/Tailor";
 import Build from "./pages/Build";
 import Score from "./pages/Score";
+import Price from "./pages/price"
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Faq />} />
+          <Route path="/price" element={<Price />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/posts" element={<PostsPage />} />
